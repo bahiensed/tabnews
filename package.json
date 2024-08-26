@@ -1,0 +1,24 @@
+{
+  "name": "tabnews",
+  "version": "1.0.0",
+  "description": "tabnews clone",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahiensed/tabnews.git"
+  },
+  "author": "bahiensed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahiensed/tabnews/issues"
+  },
+  "homepage": "https://github.com/bahiensed/tabnews#readme",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
