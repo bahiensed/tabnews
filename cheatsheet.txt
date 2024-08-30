@@ -1,0 +1,8 @@
+start =     docker compose up -d --detach
+docker compose logs
+docker compose ps -a
+
+stop =      docker compose down
+restart =   docker compose up -d --force-recreate
+
+psql --host=localhost --username=postgres --port=5432
