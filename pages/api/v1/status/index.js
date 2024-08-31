@@ -1,5 +1,7 @@
-function status(req, res) {
-  res.status(200).json({ key: "value" });
+import database from "../../../../db/database.js";
+
+function status(request, response) {
+  response.status(200).json({ status: "OK" });
 }
 
 export default status;
