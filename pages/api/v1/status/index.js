@@ -1,6 +1,8 @@
-import database from "../../../../db/database.js";
+import database from "db/database";
 
-function status(request, response) {
+async function status(request, response) {
+  const result = await database.query("SELECT 1 + 1 AS sum;")
+  console.log(result.rows);
   response.status(200).json({ status: "OK" });
 }
 
